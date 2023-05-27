@@ -1,0 +1,16 @@
+idf_component_register(SRCS "backoffAlgorithm/backoff_algorithm.c" 
+                            "common/posix_compat/clock_esp.c/"
+                            "common/posix_compat/semaphore.c"
+                            "coreMQTT/coreMQTT/core_mqtt_serializer.c"
+                            "coreMQTT/coreMQTT/core_mqtt_state.c"
+                            "coreMQTT/coreMQTT/core_mqtt.c"
+                            "coreMQTT/port/network_transport.c"
+                    INCLUDE_DIRS "backoffAlgorithm/include"
+                                    "common/logging"
+                                    "common/posix_compat"
+                                    "coreMQTT/config"
+                                    "coreMQTT/coreMQTT/include"
+                                    "coreMQTT/coreMQTT/interface"
+                                    "coreMQTT/port"
+                    PRIV_REQUIRES esp-tls
+                    )
