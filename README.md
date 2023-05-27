@@ -6,8 +6,11 @@ This is an adaptation of the [AWS IoT C SDK](https://github.com/aws/aws-iot-devi
 
  ESP_IDF 4.4 用于 连接AWS MQTT  
     1.使用 http_tls 连接AWS lamble函数 注册 MQTT 并返回 pem ,key, client_id ,iot_name  lamble函数在 iot_creat.ipynb 要复制到AWS lamble
+    
     2.使用 esp-aws-iot 库连接mqtt
+    
     3.使用 ble 向 app 端 传递 pem ,key ,iot_name 
+    
 
 ## Find & Set AWS Endpoint Hostname
 
